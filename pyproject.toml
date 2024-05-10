@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rag-handson"
+version = "0.1.0"
+description = ""
+authors = ["pico"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "1.16.1"
+langchain = "0.1.14"
+langchain-openai = "0.1.1"
+chainlit = "1.0.500"
+spacy = "3.7.4"
+tiktoken = "0.6.0"
+chromadb = "0.4.24"
+langchain-community = "0.0.31"
+pymupdf = "1.24.1"
+ja_core_news_sm = {url = "https://github.com/explosion/spacy-models/releases/download/ja_core_news_sm-3.7.0/ja_core_news_sm-3.7.0.tar.gz"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
