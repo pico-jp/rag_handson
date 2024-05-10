@@ -8,6 +8,5 @@
 - Chainlitアプリを起動する際は、以下コマンドを実行
 ```
 $ chainlit run chainlit_upload_pdf.py -w
-
 ```
 
